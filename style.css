@@ -1,9 +1,12 @@
 /*Importando fonte do Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-*{
+body{
     margin: 0px;
     padding: 0px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
+
 }
 /*Menu de navegação principal*/
 #menu-superior{
