@@ -199,3 +199,68 @@ footer .endereco{
     text-align: center;
     width: 20%;
 }
+footer .linha2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    height: 35px;
+    padding: 10px;
+}
+
+footer .linha2 a{
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+footer .linha2 a:first-child{
+    border-right: 2px solid white;
+}
+footer .linha2 a:hover{
+    color: var(--cinza-hover);
+}
+
+/*Configurações CSS se a tela for menor que 600px*/
+
+@media screen and (max-width: 600px){
+
+    /*Menu superior se a tela for menor que 600px*/
+    #menu-superior{
+        flex-direction: column;
+        height: auto;
+        
+    }
+    #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    #menu a{
+        display: flex;
+        align-items: center;
+        height: 50px;
+
+    }
+    #menu-superior button{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    section h1{
+        font-size: 38px;
+    }
+    section h2{
+        font-size: 28px;
+        padding: 0px 20px 0px 20px;
+    }
+    form{
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .checkbox-itens label{
+        font-size: 17px;
+    }
+}
