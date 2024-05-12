@@ -264,7 +264,7 @@ footer .linha2 a:hover{
         font-size: 17px;
     }
 
-    /*Ajustando o footer*/
+    /*Ajustando o footer para telas menores*/
 
     footer .linha1{
         flex-direction: column;
@@ -274,4 +274,5 @@ footer .linha2 a:hover{
         width: 95%;
         margin-bottom: 20px;
     }
+
 }
